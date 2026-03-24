@@ -1,5 +1,5 @@
 # 项目简介
-这是一个个人学习项目，学习如何利用python简单制作一个oen claw并进行本地部署，视频灵感和架构代码参考来自bilibili飞天闪客——【20 行代码彻底搞懂小龙虾！男女老少都看得懂哟~】 https://www.bilibili.com/video/BV19hwTzwETF/?share_source=copy_web&vd_source=8b606ed97b2cf13b3e7a283cacac2d99】
+这是一个社区个人学习项目，如何利用python简单制作一个oen claw并进行本地部署，视频灵感和架构代码参考来自bilibili飞天闪客——【20 行代码彻底搞懂小龙虾！男女老少都看得懂哟~】 https://www.bilibili.com/video/BV19hwTzwETF/?share_source=copy_web&vd_source=8b606ed97b2cf13b3e7a283cacac2d99】
 
 # 内置可视化网页
 包含HTML成熟框架，开箱即用。
@@ -8,4 +8,8 @@
 网址为http://127.0.0.1:5000/，可用手机和局域网互联。如需接入互联网实现项目初步效果（例如课堂作业和简单展示），可采用Cpolar web进行内网穿透。即可实现网络互联需求。
 
 # 文件说明
-Agent: 小龙虾的基础设定，包含相关Agent设定和prompt
+Agent: 小龙虾的基础设定，包含相关Agent设定和prompt工程
+skill: prompt及技能设定和配置仓库，个人可新增任何SKILL到此文件
+app: 使用移动端远控龙虾的页面，和step存在代码部分重复，且没有基础操作保护（为了方便移动端快速响应），因此需要注意内容保护。
+history:龙虾的长期记忆功能，且支持多端记忆恢复和无障碍跨设备使用功能。但需要注意token后续消耗。（建议定期清理无用的记录）
+step：本地端小龙虾，附带基础操作保护，在执行风险操作前需要用户二次确认。
