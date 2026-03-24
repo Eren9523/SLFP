@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # ================= 1. 配置区域 =================
 client = OpenAI(
-    api_key="-ZcFXqSRNU650vvxzz5hJEJnX8gpZHa00n6-7QbU8zQIZlESr5Jpm3xI-7OEv-zIIkAqg99EG1-p1QzUmnthUA", # ⚠️ 记得填入你的 Key
+    api_key="你的APIkey", # ⚠️ 记得填入你的 Key
     base_url="https://api.modelarts-maas.com/v2"  
 )
 model_name = "deepseek-v3.2"
