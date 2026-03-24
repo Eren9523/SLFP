@@ -1,5 +1,6 @@
 # 项目简介
-这是一个社区个人学习项目，如何利用python简单制作一个oen claw并进行本地部署，视频灵感和架构代码参考来自bilibili飞天闪客——【20 行代码彻底搞懂小龙虾！男女老少都看得懂哟~】 https://www.bilibili.com/video/BV19hwTzwETF/?share_source=copy_web&vd_source=8b606ed97b2cf13b3e7a283cacac2d99】
+这是一个社区个人学习项目，如何利用python简单制作一个oen claw并进行本地部署，制作灵感和架构代码参考来自bilibili飞天闪客——【20 行代码彻底搞懂小龙虾！男女老少都看得懂哟~】 https://www.bilibili.com/video/BV19hwTzwETF/?share_source=copy_web&vd_source=8b606ed97b2cf13b3e7a283cacac2d99】
+该UP主并未直接开源项目，但在视频中介绍了架构和构建方法。
 
 # 内置可视化网页
 包含HTML成熟框架，开箱即用。
